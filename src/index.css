@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background: white;
+  width: 900px;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+.like-comment-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likes {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: rgba(148, 216, 159, 1);
+}
+
+.title {
+  color: rgb(7, 3, 12);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 100px;
+}
+
+.upper-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  background: rgb(237, 238, 229);
+  border-radius: 5px;
+  border: 1px solid rgb(33, 34, 36);
+  margin: 10px;
+  height: 90px;
+}
+
+.upper-card-title {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  margin-right: 50px;
+  font-size: large;
+  color: rgb(230, 10, 10);
+}
+
+.svg-name {
+  color: rgb(10, 10, 22);
+  padding-right: 10px;
+}
+
+.delete-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  padding-right: 30px;
+}
+.svg-delete {
+  padding-top: 3px;
+  padding-right: 5px;
+}
+.svg-edit {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.edit {
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  background: rgb(237, 238, 229);
+  border-radius: 5px;
+  border: 1px solid rgb(33, 34, 36);
+  margin: 10px;
+  height: 90px;
+}
+h5 {
+  cursor: pointer;
+}
+
+.form-field {
+  margin: 5px;
+}
+
+#send {
+  color: white;
+  background: rgb(93, 125, 233);
+}
+
+.butt-del-edit {
+  border: none;
+}
